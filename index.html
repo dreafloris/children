@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Қауіпті жағдайларда балаларды дайындау</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Қауіпті жағдайларда балаларды дайындау</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Қауіп туралы</a></li>
+                    <li><a href="#preparation">Дайындау әдістері</a></li>
+                    <li><a href="#quiz">Жаттығулар</a></li>
+                    <li><a href="#contact">Байланыс</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>Қауіпті жағдайлар туралы</h2>
+                <p>Қазіргі қоғамда балалар табиғи апаттар мен экологиялық апаттарға жиі ұшырайды. Мұндай жағдайлар баланың өміріне қауіп төндіруі мүмкін. Сол себепті, балаларды қауіп-қатерлерге қарсы қалай дайындау керектігін білу өте маңызды.</p>
+            </div>
+        </section>
+
+        <!-- Preparation Section -->
+        <section id="preparation">
+            <div class="container">
+                <h2>Балаларды дайындау әдістері</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Қауіпті жағдайларды тану</h3>
+                        <p>Балаларды табиғи және техногенді апаттарды анықтауға үйрету, осындай жағдайлар кезінде қауіпсіз орынға көшу үшін қажетті дағдыларды дамыту.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Алғашқы көмек көрсету</h3>
+                        <p>Қауіпсіздік дағдыларын дамыту үшін алғашқы көмек көрсету негіздерін үйрету. Осы дағдылар баланың өмірін сақтауға көмектеседі.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Эвакуация жоспары</h3>
+                        <p>Қауіпсіз аймақтарды анықтау және балаларды эвакуациялау жоспарын үйрету, сонымен қатар осы жоспарды жаттығулар арқылы бекіту.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz">
+            <div class="container">
+                <h2>Қауіпсіздік бойынша жаттығу тесті</h2>
+                <form id="quiz-form">
+                    <div class="question">
+                        <label for="q1">1. Өрт шыққанда не істеу керек?</label><br>
+                        <input type="radio" name="q1" value="wrong"> Жанған жерді ұру<br>
+                        <input type="radio" name="q1" value="correct"> Өрт сөндірушілерге хабарлау<br><br>
+                    </div>
+                    <div class="question">
+                        <label for="q2">2. Су тасқыны кезінде не істеу керек?</label><br>
+                        <input type="radio" name="q2" value="wrong"> Қалыпты өмір сүруді жалғастыру<br>
+                        <input type="radio" name="q2" value="correct"> Жоғары орынға көтерілу<br><br>
+                    </div>
+                    <button type="button" onclick="checkQuiz()">Тексеру</button>
+                </form>
+                <div id="result"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Байланыс</h2>
+            <p>Сұрақтарыңыз болса, бізбен хабарласыңыз:</p>
+            <p>Email: info@ecotopik.kz</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
